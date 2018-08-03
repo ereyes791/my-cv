@@ -16,8 +16,9 @@ class App extends Component {
             <BrowserRouter>
                 <div >
 
-                <Route exact path='/my-cv' component={CV}/>
-                    <Route exact path='/my-cv-es' component={CVes}/>
+                <Route exact path={process.env.PUBLIC_URL + '/my-cv'} component={CV}/>
+
+                    <Route exact path={process.env.PUBLIC_URL + '/my-cv-es'} component={CVes}/>
                     <Route exact path='/home' component={Portfolio} showIcon={false}/>
 
                 </div>
