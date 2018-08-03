@@ -15,7 +15,7 @@ class CV extends Component {
 
 
                 <div className="col-12 img col-sm-4">
-                    <img  width="100%"   src={process.env.PUBLIC_URL+ './me.png'} alt=""/>
+                    <img  width="100%"   src={process.env.PUBLIC_URL+ '/me.png'} alt=""/>
 
                 </div>
                 <div className="col-sm-8 col-12 name-top">
