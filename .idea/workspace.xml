@@ -26,7 +26,7 @@
           <entry key="css" value="508" />
           <entry key="dummy" value="1" />
           <entry key="html" value="140" />
-          <entry key="js" value="7357" />
+          <entry key="js" value="7358" />
           <entry key="json" value="36" />
         </counts>
       </usages-collector>
@@ -35,7 +35,7 @@
           <entry key="CSS" value="508" />
           <entry key="HTML" value="140" />
           <entry key="JSON" value="36" />
-          <entry key="JavaScript" value="7357" />
+          <entry key="JavaScript" value="7358" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -340,7 +340,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111081000" />
+    <option name="totallyTimeSpent" value="111220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="0" />
@@ -571,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="221">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
