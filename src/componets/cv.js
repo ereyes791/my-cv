@@ -135,7 +135,7 @@ class CV extends Component {
                                   summary="While  i have developed my university career I learned that the use of mathematics together with statistics and computer science are bases to solve the great complex problems that the world is facing nowadays."
                                   subjects={[{ name: 'DB' }, { name: 'Maths' }, { name: 'Statistics' }, { name: 'Software Engineering' }, { name: 'OOP' }, { name: 'Java' }, { name: 'C++' }]}/>
                         <Timeline url_img="/logo-academy-black-c0b4a906430b3143562f01bb94fbf463.svg" school="Academia Hack" degree="FullStack Developer Frontend-Backend" date ="Jun 2015  - Nov 2015"
-                                  summary="I learned to develop in a cooperative world and that gives a great added value to teamwork. It awakened in me a great sense of commitment for what is done and not to falter until achieving the goal set. Additionally, it allowed me to immerse myself in important programming languages with more than 600 hours of study"
+                                  summary="I learned to develop in a cooperative world and that gives a great added value to teamwork. It awakened in me a great sense of commitment for what is done and not give up until achieving the goal set. Additionally, it allowed me to immerse myself in important programming languages with more than 600 hours of study"
                                   subjects={[{ name: 'Git' },{ name: 'Ruby' }, { name: 'Ruby on Rails' }, { name: 'SCRUM' }, { name: 'Javascript' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'Bootstrap' }]}/>
                         <Timeline url_img="/bogodev.png" school="Bogota Dev" degree="FullStack Developer Frontend-Backend" date ="May 2018  - July 2018"
                                   summary="From a completely international projection, I updated with the new technologies and strengthened my design with the help of American professors, developing skills such as creativity and aesthetics to complement and give a more harmonious look to the projects in which I am involved . In addition, I had the opportunity to improve my performance as Front-End with more than 420 hours of study."
@@ -163,7 +163,7 @@ class CV extends Component {
                                   subjects={[{ name: 'Webside' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
                         <Timeline url_img="/dev.png" school="Freelancer"  date ="Dec 2015  - Current" degree="Developer "
                                   summary="Since i finished Academia Hack 3 years ago y wanted to keep in a good level of developing so i started to do some products and keep learning the newest Frameworks."
-                                  subjects={[{ name: 'Webside' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
+                                  subjects={[{ name: 'Ionic' }, { name: 'PHP-Frameworks' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'JQUERY' }, { name: 'ExpressJS' }, { name: 'Java' }, { name: 'Wordpress' }, { name: 'Ruby' }, { name: 'Ruby on Rails' }]}/>
 
                     </section>
 

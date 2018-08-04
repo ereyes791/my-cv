@@ -81,11 +81,11 @@ class CVes extends Component {
                     {/* Internet of Things,  Swift and IOS-Fullstack ,security of the information
                         Artificial Inteligence, Machine Learning, Big data, Vue.js, React Native, Desing UX, Calculus for data, BlockChain*/}
                     <div className="row interests">
-                        <Interest name="Internet Of Things" img_url="https://static.platzi.com/media/achievements/badges-robotica-arduino-c7e2a329-7228-4aac-9956-86fb922a21a8.png" />
+                        <Interest name="Internet De Las Cosas" img_url="https://static.platzi.com/media/achievements/badges-robotica-arduino-c7e2a329-7228-4aac-9956-86fb922a21a8.png" />
                         <Interest name="Swift" img_url="https://static.platzi.com/media/achievements/swift-new-3d13102e-811f-4ee3-a778-00b31f75bb72.png" />
                         <Interest name="iOS Apps" img_url="https://static.platzi.com/media/achievements/badge-apps-ios-2018-90d62179-4feb-4291-b2ef-73a409fe8d99.png" />
-                        <Interest name="Security" img_url="https://static.platzi.com/media/achievements/badge-pentesting.png" />
-                        <Interest name="Artificial Intelligence" img_url="https://static.platzi.com/media/achievements/badge-redes-neuronales.png" />
+                        <Interest name="Seguridad" img_url="https://static.platzi.com/media/achievements/badge-pentesting.png" />
+                        <Interest name="Inteligencia Artifical" img_url="https://static.platzi.com/media/achievements/badge-redes-neuronales.png" />
                         <Interest name="Machine Learning" img_url="https://static.platzi.com/media/achievements/badge-INTRO-machine-learning-.png" />
                         <Interest name="Big Data" img_url="https://static.platzi.com/media/achievements/badge-ecuaciones-diferenciales-62692f80-03d3-401f-82f5-3a68dc2dc0f3.png" />
                         <Interest name="Vue.js" img_url="https://static.platzi.com/media/achievements/badge-Vue-JS-profesional.png" />
@@ -131,28 +131,28 @@ class CVes extends Component {
                     <section id="cd-timeline" className="cd-container">
                         <Timeline url_img="/uni.png" school="Universidad Metropolitana" degree="Ingenieria en Sistemas" date ="2012 - 2018"
                                   summary="Mientras desarrollé mi carrera universitaria aprendí que el uso de las matemáticas junto con las estadísticas y la informática son las bases para resolver los grandes y complejos problemas que enfrenta el mundo hoy en día."
-                                  subjects={[{ name: 'DB' }, { name: 'Maths' }, { name: 'Statistics' }, { name: 'Software Engineering' }, { name: 'OOP' }, { name: 'Java' }, { name: 'C++' }]}/>
+                                  subjects={[{ name: 'BD' }, { name: 'Matematica' }, { name: 'Estadistica' }, { name: 'Ingenieria de Software' }, { name: 'POO' }, { name: 'Java' }, { name: 'C++' }]}/>
                         <Timeline url_img="/logo-academy-black-c0b4a906430b3143562f01bb94fbf463.svg" school="Academia Hack" degree="FullStack Developer Frontend-Backend" date ="Jun 2015  - Nov 2015"
-                                  summary="Aprendí a desarrollarme en un mundo cooperativo y eso le da un gran valor agregado al trabajo en equipo. Me despertó un gran sentido de compromiso por lo que se hace y no vacilar hasta lograr el objetivo establecido. Además, me permitió sumergirme en importantes lenguajes de programación con más de 600 horas de estudio"
+                                  summary="Aprendí a desarrollarme en un mundo cooperativo y eso le da un gran valor agregado al trabajo en equipo. Me despertó un gran sentido de compromiso por lo que se hace y no darse por vencido hasta lograr el objetivo establecido. Además, me permitió sumergirme en importantes lenguajes de programación con más de 600 horas de estudio"
                                   subjects={[{ name: 'Git' },{ name: 'Ruby' }, { name: 'Ruby on Rails' }, { name: 'SCRUM' }, { name: 'Javascript' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'Bootstrap' }]}/>
                         <Timeline url_img="/bogodev.png" school="Bogota Dev" degree="FullStack Developer Frontend-Backend" date ="May 2018  - July 2018"
                                   summary="Desde una vision internacional, actualicé con las nuevas tecnologías y fortalecí mi diseño con la ayuda de profesores estadounidenses, desarrollando habilidades como la creatividad y la estética para complementar y dar un aspecto más armonioso a los proyectos en los que estoy involucrado. Además, tuve la oportunidad de mejorar mi desempeño como Front-End con más de 420 horas de estudio."
                                   subjects={[{ name: 'Ruby' }, { name: 'Ruby on Rails' }, { name: 'JQUERY' }, { name: 'Javascript' }, { name: 'React' }, { name: 'Redux' }, { name: 'Firebase' }, { name: 'Heroku' },{ name: 'AWS tools' }]}/>
                         <Timeline url_img="/logo.png" school="StartCoaching" degree="Professional I&E Coach " date ="Jun 2017  - Mar 2018"
                                   summary="Con esta poderosa disciplina, aprendí el poder de las conversaciones, para trabajar en mi inteligencia emocional y cómo trabajar en equipo con relaciones transparentes gracias a una comunicación efectiva. También asimilé y comprendí que somos seres con la capacidad de cambiar su realidad dependiendo de como la veamos de la mano  con una buena actitud y profundizando lo mejor posible virtudes, podemos acomodarnos a lo que proponemos."
-                                  subjects={[{ name: 'Ontological Coaching' }, { name: 'Leadership' }, { name: "Conversation's Power" }, { name: 'B Corp' }, { name: 'Personal Improvement' }]}/>
+                                  subjects={[{ name: 'Coaching Ontologico' }, { name: 'Liderazgo' }, { name: "Poder de las Coversaciones" }, { name: 'Empresas B' }, { name: 'Mejora Personal' }]}/>
                         <Timeline url_img="/oxford.png" school="Oxford House College" degree="Upper-English " date ="Jul 2012  - Feb 2013"
                                   summary="Más de 6 meses de una experiencia enriquecedora como es vivir en un país extranjero, con una cultura totalmente diferente a la mía y con un lenguaje diferente al mío. Con esta oportunidad, me sumergí completamente en la dinámica de aprender un idioma extranjero y tuve la oportunidad de aprender a desarrollarme en un entorno totalmente innovador para mí."
-                                  subjects={[{ name: 'English' }, { name: 'Basic' }, { name: "English Culture" }, { name: 'B2 ' }]}/>
+                                  subjects={[{ name: 'Ingles' }, { name: 'Basico' }, { name: "English Culture" }, { name: 'B2 ' }]}/>
                         <Timeline url_img="/B.svg" school="Beet School" degree="Advance English" date ="Jul 2013  - Dec 2013"
                                   summary="Segunda experiencia de 6 meses de inglés británico. Me enfoqué en desarrollar inglés profesionalmente y mejorar aspectos clave como hablar y escuchar."
-                                  subjects={[{ name: 'English' }, { name: 'Advance' }, { name: "Grammar" }, { name: 'C1 ' }, { name: "Essay" }]}/>
+                                  subjects={[{ name: 'Ingles' }, { name: 'Advance' }, { name: "Grammar" }, { name: 'C1 ' }, { name: "Essay" }]}/>
                         <Timeline url_img="/americo.png" school="U.E. Americo Vespucio" degree="High School" date ="2007  -  2011"
                                   summary="Constituyó mi formación inicial y, por lo tanto, la base que me permitió formarme más tarde en lo que soy ahora. Adquirí conocimientos básicos en diferentes áreas de conocimiento y, dada mi inclinación hacia las nuevas tecnologías, hice mi primer acercamiento formal a las TIC en mi tesis."
-                                  subjects={[{ name: 'Cience' }]}/>
+                                  subjects={[{ name: 'Ciencia' }]}/>
                         <Timeline url_img="/SB.png" school="Colegio Simon Bolivar" degree="High School" date ="1997  -  2006"
                                   summary="Constituyó mi formación inicial y, por lo tanto, la base que me permitió formarme más tarde en lo que soy ahora. Adquirí conocimientos básicos en diferentes áreas de conocimiento"
-                                  subjects={[{ name: 'Cience' }]}/>
+                                  subjects={[{ name: 'Ciencia' }]}/>
                     </section>
                     <h1 className="name">Experiencia</h1>
                     <section id="cd-timeline" className="cd-container">
@@ -161,7 +161,7 @@ class CVes extends Component {
                                   subjects={[{ name: 'Webside' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
                         <Timeline url_img="/dev.png" school="Freelancer"  date ="Dec 2015  - Current" degree="Developer "
                                   summary="Desde que terminé la Academia Hack hace 3 años y quería mantener un buen nivel de desarrollo, comencé a hacer algunos productos y seguí aprendiendo los Frameworks más nuevos."
-                                  subjects={[{ name: 'Webside' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
+                                  subjects={[{ name: 'Ionic' }, { name: 'PHP-Frameworks' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'JQUERY' }, { name: 'ExpressJS' }, { name: 'Java' }, { name: 'Wordpress' }, { name: 'Ruby' }, { name: 'Ruby on Rails' }]}/>
 
                     </section>
 
