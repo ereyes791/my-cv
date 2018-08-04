@@ -2,7 +2,7 @@
   "name": "my-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ereyes791.github.io/my-cv",
+  "homepage": "http://ereyes791.github.io/#/my-cv",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",

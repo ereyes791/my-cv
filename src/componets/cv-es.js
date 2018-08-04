@@ -27,10 +27,10 @@ class CVes extends Component {
                         </div>
                         <div className="col-3 lang" align="right">
                             <ul className="languagepicker roundborders">
-                                <a href="#nl">
+                                <a href="#/my-cv-es">
                                     <li><img src="http://i68.tinypic.com/avo5ky.png"/>Español</li>
                                 </a>
-                                <a href="/my-cv">
+                                <a href="#/my-cv">
                                     <li><img src="http://i64.tinypic.com/fd60km.png"/>English</li>
                                 </a>
                             </ul>
