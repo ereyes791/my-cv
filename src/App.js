@@ -13,11 +13,10 @@ class App extends Component {
 
   render() {
     return (
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <BrowserRouter>
                 <div >
                     <Switch>
-                <Route exact path='/my-cv' component={CV}/>
-
+                        <Route exact path='/my-cv' component={CV}/>
                     <Route exact path='/my-cv-es' component={CVes}/>
                     <Route exact path='/home' component={Portfolio} showIcon={false}/>
                     </Switch>
