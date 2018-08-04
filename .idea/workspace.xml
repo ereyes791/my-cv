@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be61990-10e1-48cb-90e6-f3c738b8e8f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/componets/cv-es.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/cv-es.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/componets/cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/cv.js" afterDir="false" />
     </list>
@@ -28,7 +27,7 @@
           <entry key="css" value="508" />
           <entry key="dummy" value="1" />
           <entry key="html" value="140" />
-          <entry key="js" value="7387" />
+          <entry key="js" value="7393" />
           <entry key="json" value="38" />
         </counts>
       </usages-collector>
@@ -37,7 +36,7 @@
           <entry key="CSS" value="508" />
           <entry key="HTML" value="140" />
           <entry key="JSON" value="38" />
-          <entry key="JavaScript" value="7387" />
+          <entry key="JavaScript" value="7393" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -79,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/componets/cv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="181">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="50" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/componets/cv-es.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="220">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -324,7 +323,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112748000" />
+    <option name="totallyTimeSpent" value="113069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="0" />
@@ -548,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/componets/cv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="181">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="50" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -558,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/componets/cv-es.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="220">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>
