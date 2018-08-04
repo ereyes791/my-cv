@@ -259,6 +259,10 @@ padding-top: 20px;
     display: block;
     width: 100%;
   }
+  h5{
+    color: white;
+
+  }
 }
 .cd-timeline-content .content-skills {
 
@@ -313,6 +317,7 @@ padding-top: 20px;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
+    color: white;
 
   }
   .cd-timeline-content p {
