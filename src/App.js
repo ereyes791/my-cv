@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Route,Switch} from 'react-router-dom';
+import {HashRouter,BrowserRouter, Route,Switch} from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +13,7 @@ class App extends Component {
 
   render() {
     return (
-            <BrowserRouter>
+            <HashRouter>
                 <div >
                     <Switch>
                         <Route exact path='/my-cv' component={CV}/>
@@ -21,7 +21,7 @@ class App extends Component {
                     <Route exact path='/home' component={Portfolio} showIcon={false}/>
                     </Switch>
                 </div>
-            </BrowserRouter>
+            </HashRouter>
 
     );
   }
