@@ -155,10 +155,10 @@ class CVes extends Component {
                     <h1 className="name">Experiencia</h1>
                     <section id="cd-timeline" className="cd-container">
                         <Timeline url_img="/logo.png" school="StartCoaching" degree="Developer " date ="Jan 2018  - Jun 2018"
-                                  summary="Obtuve una experiencia agradable con esta empresa y realizamos muchas mejoras con su sitio web y algunos proyectos interesantes, como manejar la reputación de cada entrenador y ayudé a crear nuevos productos de la escuela."
-                                  subjects={[{ name: 'Webside' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
+                                  summary="Ayudé a crear y diseñar el sitio web fundado por el CTO, Gustavo Fuentes. StartCoaching usó Wordpress, Moddle y PHP. Creé la funcionalidad necesaria para que el sitio maneje la reputación de los coaches, las sesiones y los aprendices coachee."
+                                  subjects={[{ name: 'Webside' }, { name: 'PHP' }, { name: 'Moddle' }, { name: 'Wordpress' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
                         <Timeline url_img="/dev.png" school="Freelancer"  date ="Dec 2015  - Current" degree="Developer "
-                                  summary="Desde que terminé la Academia Hack hace 3 años y quería mantener un buen nivel de desarrollo, comencé a hacer algunos productos y seguí aprendiendo los Frameworks más nuevos."
+                                  summary="Después de completar ambos Bootcamps, Academia Hack y Bogotá Dev Bootcamp, he sido un recurso importante para amigos y familiares. ¡He creado aplicaciones usando REACT, como este sitio web! Entiendo el proceso de hosting, implementación y errores de configuración que ocurren al trabajar con otros. Estoy emocionado de ayudarte a hacer tu próximo proyecto. Estoy seguro de que puedo hacerte un sitio web impresionante y funcional."
                                   subjects={[{ name: 'Ionic' }, { name: 'PHP-Frameworks' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'JQUERY' }, { name: 'ExpressJS' }, { name: 'Java' }, { name: 'Wordpress' }, { name: 'Ruby' }, { name: 'Ruby on Rails' }]}/>
 
                     </section>

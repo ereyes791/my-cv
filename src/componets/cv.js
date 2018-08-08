@@ -159,7 +159,7 @@ class CV extends Component {
                     <section id="cd-timeline" className="cd-container">
                         <Timeline url_img="/logo.png" school="StartCoaching" degree="Developer " date ="Jan 2018  - Jun 2018"
                                   summary="I helped create and style the website founded by CTO, Gustavo Fuentes. StartCoaching used Wordpress and PHP. I created the functionality necessary for the site to handle a coaches reputation, sessions, and mentees involved."
-                                  subjects={[{ name: 'Webside' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
+                                  subjects={[{ name: 'Webside' }, { name: 'PHP' }, { name: 'Moddle' }, { name: 'Wordpress' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
                         <Timeline url_img="/dev.png" school="Freelancer"  date ="Dec 2015  - Current" degree="Developer "
                                   summary="After completed both bootcamps, Academia Hack and Bogotá Dev Bootcamp I have been an important resource for friends and family members. I have created apps using REACT, like this website! I understand the process of hosting, deployment and fixing errors that happen when working with others. I am excited to help you make your next project. I am confident that I can make you a functional and wicked impressive looking website."
                                   subjects={[{ name: 'Ionic' }, { name: 'PHP-Frameworks' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'JQUERY' }, { name: 'ExpressJS' }, { name: 'Java' }, { name: 'Wordpress' }, { name: 'Ruby' }, { name: 'Ruby on Rails' }]}/>
