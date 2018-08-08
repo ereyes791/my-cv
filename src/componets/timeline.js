@@ -45,19 +45,25 @@ class Timeline extends Component{
 
                 <div className="cd-timeline-content">
                     <h3 className="name">{this.state.school}</h3>
-                    <div className="timeline-content-info">
-                          <span className="timeline-content-info-title">
+                    <div className="row timeline-content-info">
+                        <div className="col-12">
+
+
 
                            <h4>
                                <i className="fa fa-certificate" aria-hidden="true"></i>
                                {this.state.degree}</h4>
-                          </span>
-                        <span className="timeline-content-info-date">
+
+                         </div>
+                        <div className="col-12">
+
 
                            <h4>
+
                                 <i className="fa fa-calendar" aria-hidden="true"></i>
                                {this.state.date}</h4>
-                          </span>
+
+                        </div>
                     </div>
                     <h5 align="justify">
                         {this.state.summary}

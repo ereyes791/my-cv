@@ -38,19 +38,17 @@ class CVes extends Component {
                         </div>
                 </div>
                     <h2 className="name">Ingeniero en sistemas & Full Stack Developer </h2>
-                    <h4 align="justify">Mi nombre es Esteban S Reyes, tengo 26 años y mi gran pasión se ha centrado
-                        en el área de la Computación y Matemáticas. En consecuencia, desde 2012 me he desarrollado orgullosamente
-                        como estudiante de Ingeniera en Sistemas y, actualmente, estoy en la fase final del grado con el desarrollo
-                        de mi Proyecto Industrial con la Compañía StartCoaching, la presentación correspondiente se realizará
-                        en Noviembre. Abordo este proyecto como un paso importante para combinar dos grandes áreas que me
-                        complementan como un profesional altamente competitivo: Informática, como una profesión versátil y de amplio
-                        espectro y Coaching, como una filosofía que ayuda a ver lo que está sucediendo desde una perspectiva ontológica
-                        , respaldado por el poder de las conversaciones para mejorar el rendimiento de un equipo. Hace 3 años ingresé al
-                        mundo del desarrollo web con la escuela Academia Hack, donde comencé mi camino como desarrollador. Hace un año,
-                        comencé mi formación para convertirme en Coach de emprendimiento con StartCoaching.Este año, participé en BogotáDev para complementar mis estudios como desarrollador y en la cual tuve
-                        que poner a prueba mi conocimiento y la capacidad de trabajar bajo presión con un equipo. Actualmente estoy en
-                        la búsqueda de poder continuar con el ejercicio de mi profesión y seguir adquiriendo herramientas valiosas para
-                        mi crecimiento profesional, destacando que mi disposición está completa.
+                    <h4 align="justify">Mi nombre es Esteban S Reyes, soy de Venezuela y soy un apasionado de la
+                        programación y las matemáticas. Desde 2012, he estudiado ingeniería en sistemas y, actualmente,
+                        estoy en la fase final del grado con el desarrollo de mi tesis o "Proyecto Industrial" como se
+                        llama en mi Universidad, esto fue en conjunto con una compañía llamada StartCoaching . Mi tesis
+                        la defenderé en noviembre de este año. Abordo este proyecto como un paso importante para combinar
+                        dos grandes áreas que me complementan como profesional: computación, y el coaching.
+                        Hace tres años entré en el mundo del desarrollo web completo en la Academia Hack. Hace un año,
+                        comencé mi formación para convertirme en coach de emprendimiento y innovación con StartCoaching
+                        Company. Este año participé en Bogotá Dev Bootcamp para mejorar mis habilidades como desarrollador
+                        web completo. Espero encontrar un trabajo que no solo sea un trabajo, sino una carrera. Seguir
+
 
                     </h4>
                 </div>
@@ -130,12 +128,12 @@ class CVes extends Component {
                     <h1 className="name">Educacion</h1>
                     <section id="cd-timeline" className="cd-container">
                         <Timeline url_img="/uni.png" school="Universidad Metropolitana" degree="Ingenieria en Sistemas" date ="2012 - 2018"
-                                  summary="Mientras desarrollé mi carrera universitaria aprendí que el uso de las matemáticas junto con las estadísticas y la informática son las bases para resolver los grandes y complejos problemas que enfrenta el mundo hoy en día."
+                                  summary="Durante mi carrera universitaria aprendí la importancia de las matemáticas con las estadísticas y la informática para resolver los problemas que enfrenta el mundo. Por ejemplo, la ingeniería enfatiza el valor de planificar un proyecto de principio a fin. Esto me ha dado las habilidades para pensar por adelantado, entender que las cosas pueden salir mal y, a su vez, tener un plan de respaldo."
                                   subjects={[{ name: 'BD' }, { name: 'Matematica' }, { name: 'Estadistica' }, { name: 'Ingenieria de Software' }, { name: 'POO' }, { name: 'Java' }, { name: 'C++' }]}/>
-                        <Timeline url_img="/logo-academy-black-c0b4a906430b3143562f01bb94fbf463.svg" school="Academia Hack" degree="FullStack Developer Frontend-Backend" date ="Jun 2015  - Nov 2015"
+                        <Timeline url_img="/logo-academy-black-c0b4a906430b3143562f01bb94fbf463.svg" school="Academia Hack" degree="FullStack Developer " date ="Jun 2015  - Nov 2015"
                                   summary="Aprendí a desarrollarme en un mundo cooperativo y eso le da un gran valor agregado al trabajo en equipo. Me despertó un gran sentido de compromiso por lo que se hace y no darse por vencido hasta lograr el objetivo establecido. Además, me permitió sumergirme en importantes lenguajes de programación con más de 600 horas de estudio"
                                   subjects={[{ name: 'Git' },{ name: 'Ruby' }, { name: 'Ruby on Rails' }, { name: 'SCRUM' }, { name: 'Javascript' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'Bootstrap' }]}/>
-                        <Timeline url_img="/bogodev.png" school="Bogota Dev" degree="FullStack Developer Frontend-Backend" date ="May 2018  - July 2018"
+                        <Timeline url_img="/bogodev.png" school="Bogota Dev" degree="FullStack Developer " date ="May 2018  - July 2018"
                                   summary="Desde una vision internacional, actualicé con las nuevas tecnologías y fortalecí mi diseño con la ayuda de profesores estadounidenses, desarrollando habilidades como la creatividad y la estética para complementar y dar un aspecto más armonioso a los proyectos en los que estoy involucrado. Además, tuve la oportunidad de mejorar mi desempeño como Front-End con más de 420 horas de estudio."
                                   subjects={[{ name: 'Ruby' }, { name: 'Ruby on Rails' }, { name: 'JQUERY' }, { name: 'Javascript' }, { name: 'React' }, { name: 'Redux' }, { name: 'Firebase' }, { name: 'Heroku' },{ name: 'AWS tools' }]}/>
                         <Timeline url_img="/logo.png" school="StartCoaching" degree="Professional I&E Coach " date ="Jun 2017  - Mar 2018"
@@ -162,6 +160,15 @@ class CVes extends Component {
                         <Timeline url_img="/dev.png" school="Freelancer"  date ="Dec 2015  - Current" degree="Developer "
                                   summary="Desde que terminé la Academia Hack hace 3 años y quería mantener un buen nivel de desarrollo, comencé a hacer algunos productos y seguí aprendiendo los Frameworks más nuevos."
                                   subjects={[{ name: 'Ionic' }, { name: 'PHP-Frameworks' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'JQUERY' }, { name: 'ExpressJS' }, { name: 'Java' }, { name: 'Wordpress' }, { name: 'Ruby' }, { name: 'Ruby on Rails' }]}/>
+
+                    </section>
+
+                    <h1 className="name">Logros</h1>
+                    <section id="cd-timeline" className="cd-container">
+                        <Timeline url_img="/angel.png" school="AngelHack" degree="2do lugar " date ="Agosto 4 & 5, 2018"
+                                  summary="Recientemente participé en mi primer Hackathon. La experiencia de crear una idea desde cero y trabajar todo el día y toda la noche con los demás fue realmente diferente a trabajar en una oficina. El hackathon fue patrocinado por IBM, y utilizamos la tecnología basada en Watson que utiliza imágenes y reconocimiento facial. Nuestra aplicación fue llamada 'U.Eat' y creamos una funcionalidad que identificaba a las personas sentadas en las mesas de los restaurantes. De esta forma, los restaurantes abarrotados podrían actualizar a sus clientes sobre cuántas mesas estaban disponibles en tiempo real, fue sacado y  un domingo ajetreado. ¡Después de 26 horas de codificación, mi equipo Bogotá Dev y yo obtuvimos el segundo lugar en el Hackathon!"
+
+                                  subjects={[{ name: 'IMB' }, { name: 'Watson' }, { name: 'Visual Recognition' }, { name: 'IOT' }, { name: 'Startup' }, { name: 'AI' }]} />
 
                     </section>
 

@@ -38,21 +38,20 @@ class CV extends Component {
                         </div>
                     </div>
                     <h2 className="name">Computer Science & Full Stack Developer </h2>
-                    <h4 align="justify">My name is Esteban S Reyes, I am 26 years old and my great passion has focused
-                        on the area of ​​Computing and Mathematics. Consequently, since 2012 I have proudly developed
-                        as a Computer Science student and, currently, I am in the degree's final phase with the development
-                        of an Industrial Project in conjunction with the StartCoaching Company, the corresponding
-                        presentation will be made in November of this year. I approach this project as an important step
-                        to combine two great areas that complement myself as a highly competitive professional: Computer
-                        Science, as a versatile and broad-spectrum profession and Coaching, as a philosophy that helps to
-                        see what is happening from an ontological view, supported by the power of conversations to improve
-                        the performance of a team. 3 years ago i entered the world of Web Development with the Academia Hack
-                        school, where I started my path as a developer.A year ago, I started my training to become a
-                        Entrepreneurship and Innovation Coach with the StartCoaching Company. This year, I participated
-                        in Bogota Dev Academy to complement my studies as a developer and in which I had to test my
-                        knowledge and the ability to work under pressure with a team. Currently I am in the search of
-                        being able to continue with the exercise of my profession and continue acquiring valuable tools
-                        for my professional growth, highlighting that my disposition is complete.
+                    <h4 align="justify">My name is Esteban S Reyes, I am from Venezuela and I am passionate
+                        about Programming and Mathematics. Since 2012, I have been studying as a
+                        Computer Science major and, currently, I am in the degree's final phase with the
+                        development of my thesis or “Industrial Project” as it’s called  in my University,
+                        this was in conjunction with a  company called StartCoaching. My thesis will be completed
+                        in November of this year. I approach this project as an important step to combine two great
+                        areas that complement me as a professional: computer science, and coaching others.
+                        <br/>
+                        Three years ago I entered the world of full stack web development at the Academia Hack school.
+                        A year ago, I started my training to become an entrepreneur and innovation coach with the
+                        StartCoaching Company. This year I participated in Bogota Dev Bootcamp to improve my skills
+                        as a full stack web developer. I am hoping to find a job that is not only a job, but a career.
+                        Continuing to learn is an important part of being a web developer and I feel especially motivated
+                        to keep up technology.
 
                     </h4>
                 </div>
@@ -132,40 +131,48 @@ class CV extends Component {
                     <h1 className="name">Education</h1>
                     <section id="cd-timeline" className="cd-container">
                         <Timeline url_img="/uni.png" school="Universidad Metropolitana" degree="Computer Science" date ="2012 - 2018"
-                                  summary="While  i have developed my university career I learned that the use of mathematics together with statistics and computer science are bases to solve the great complex problems that the world is facing nowadays."
+                                  summary="During my university career I learned that the importance of mathematics with statistics and computer science to solve incoming problems that the world is facing. For example, engineering emphasizes the value in planning a project from start to finish. This has give me the skills to think ahead, understand that things can go wrong and in turn have a back up plan."
                                   subjects={[{ name: 'DB' }, { name: 'Maths' }, { name: 'Statistics' }, { name: 'Software Engineering' }, { name: 'OOP' }, { name: 'Java' }, { name: 'C++' }]}/>
-                        <Timeline url_img="/logo-academy-black-c0b4a906430b3143562f01bb94fbf463.svg" school="Academia Hack" degree="FullStack Developer Frontend-Backend" date ="Jun 2015  - Nov 2015"
-                                  summary="I learned to develop in a cooperative world and that gives a great added value to teamwork. It awakened in me a great sense of commitment for what is done and not give up until achieving the goal set. Additionally, it allowed me to immerse myself in important programming languages with more than 600 hours of study"
+                        <Timeline url_img="/logo-academy-black-c0b4a906430b3143562f01bb94fbf463.svg" school="Academia Hack" degree="FullStack Developer " date ="Jun 2015  - Nov 2015"
+                                  summary="My experience in Academia Hack allowed me to learn the basics of programming in a group. The class was 12 students and we were constantly pushing one another to learn and create. Our teachers were available for us when we got stuck, but Academia Hack was about teamwork and learning to code with a group. Additionally, it allowed me to immerse myself in important programming languages with more than 600 hours of study within 3 months."
                                   subjects={[{ name: 'Git' },{ name: 'Ruby' }, { name: 'Ruby on Rails' }, { name: 'SCRUM' }, { name: 'Javascript' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'Bootstrap' }]}/>
-                        <Timeline url_img="/bogodev.png" school="Bogota Dev" degree="FullStack Developer Frontend-Backend" date ="May 2018  - July 2018"
-                                  summary="From a completely international projection, I updated with the new technologies and strengthened my design with the help of American professors, developing skills such as creativity and aesthetics to complement and give a more harmonious look to the projects in which I am involved . In addition, I had the opportunity to improve my performance as Front-End with more than 420 hours of study."
+                        <Timeline url_img="/bogodev.png" school="Bogota Dev" degree="FullStack Developer " date ="May 2018  - July 2018"
+                                  summary="Going abroad to code was an amazing experience for me. With the help of a New York professor, we covered new technologies and  in effect, strengthened my design skills. The group was creative and motivated to make things look pretty. I learned that functionality is what creates an application but the style and user experience of the app is what makes it sell. My understanding of stying, position, color, and UX gives me the confidence to make something that works well and looks good. I had the opportunity to improve my performance as Front-End with more than 420 hours of study."
                                   subjects={[{ name: 'Ruby' }, { name: 'Ruby on Rails' }, { name: 'JQUERY' }, { name: 'Javascript' }, { name: 'React' }, { name: 'Redux' }, { name: 'Firebase' }, { name: 'Heroku' },{ name: 'AWS tools' }]}/>
                         <Timeline url_img="/logo.png" school="StartCoaching" degree="Professional I&E Coach " date ="Jun 2017  - Mar 2018"
-                                  summary="With this powerful discipline, I learned the power of conversations, to work on my emotional intelligence and how to work in a team with transparent relationships thanks to effective communication. I also assimilated and understood that we are beings with the ability to change their reality and that, with a good attitude and deepening our best virtues, we can accommodate what we propose."
+                                  summary="I believe that communication is a powerful discipline. Positive and negative conversations have ability to affect people and their decisions. Working on my emotional intelligence and how to work in a team with transparent relationships has made me an excellent communicator. I also comprehend that we are individuals with the ability to change reality. Utilizing a good attitude and positive virtues, we can create our goals to reality."
                                   subjects={[{ name: 'Ontological Coaching' }, { name: 'Leadership' }, { name: "Conversation's Power" }, { name: 'B Corp' }, { name: 'Personal Improvement' }]}/>
                         <Timeline url_img="/oxford.png" school="Oxford House College" degree="Upper-English " date ="Jul 2012  - Feb 2013"
-                                  summary="More than 6 months of an enriching experience as it is to live in a foreign country, with a culture totally different from my own and with a language that differs from mine. With this opportunity I immersed myself fully in the dynamics of learning a foreign language and I had the opportunity to learn to develop myself in a completely innovative environment for myself."
+                                  summary="I spent more than 6 months in Oxford, England and loved the experience of living in a foreign country, with a culture totally different from my own. I had the opportunity to meet individuals from Korea, Germany, Turkey, Italy and Brazil and we exchanged stories, traditions and experiences. Learning English was the common goal among all of us and we helped one another achieve our fluency in English."
                                   subjects={[{ name: 'English' }, { name: 'Basic' }, { name: "English Culture" }, { name: 'B2 ' }]}/>
                         <Timeline url_img="/B.svg" school="Beet School" degree="Advance English" date ="Jul 2013  - Dec 2013"
-                                  summary="Second experience of 6 months of British English.I focused  to develop English professionally and improve key aspects such as Speaking and Listening."
+                                  summary="My second experience learning British English focused on fundamental grammar, tenses, and written English. My main focus was to develop English professionally and improve key aspects such as speaking and listening. I decided to visit the “beaches” of England and honestly, it was terribly cold. They should be called frozen deserts. "
                                   subjects={[{ name: 'English' }, { name: 'Advance' }, { name: "Grammar" }, { name: 'C1 ' }, { name: "Essay" }]}/>
                         <Timeline url_img="/americo.png" school="U.E. Americo Vespucio" degree="High School" date ="2007  -  2011"
-                                  summary="It constituted my initial formation and, therefore, the basis that allowed me to form later in what I am now. I acquired basic knowledge in different areas of knowledge and, given my inclination towards new technologies, I made my first formal approach to ICT on my thesis."
+                                  summary="I learned the basics in relationships, mathematics, science, and history. This educational foundation taught me how I study most efficiently, how to speak to others and how to have an intelligent opinion on universal subject matters. I acquired basic knowledge in different subjects and given my inclination towards new technology, I made my first senior thesis on the formal approach to Information Communication & Technology."
                                   subjects={[{ name: 'Cience' }]}/>
                         <Timeline url_img="/SB.png" school="Colegio Simon Bolivar" degree="High School" date ="1997  -  2006"
-                                  summary="It constituted my initial formation and, therefore, the basis that allowed me to form later in what I am now. I acquired basic knowledge in different areas of knowledge."
+                                  summary="I learned the basics in relationships, mathematics, science, and history. This educational foundation taught me how I study most efficiently, how to speak to others and how to have an intelligent opinion on universal subject matters. I acquired basic knowledge in different subjects and given my inclination towards new technology"
                                   subjects={[{ name: 'Cience' }]}/>
                     </section>
                     <h1 className="name">Experience</h1>
                     <section id="cd-timeline" className="cd-container">
                         <Timeline url_img="/logo.png" school="StartCoaching" degree="Developer " date ="Jan 2018  - Jun 2018"
-                                  summary="I got a nice experience with this company and we made many improvements with their website and some interesting projects such as handle every Coach reputation and i helped to create a new products of the school."
+                                  summary="I helped create and style the website founded by CTO, Gustavo Fuentes. StartCoaching used Wordpress and PHP. I created the functionality necessary for the site to handle a coaches reputation, sessions, and mentees involved."
                                   subjects={[{ name: 'Webside' }, { name: 'Coaching-app' }, { name: 'Auxiliar Coach' }]}/>
                         <Timeline url_img="/dev.png" school="Freelancer"  date ="Dec 2015  - Current" degree="Developer "
-                                  summary="Since i finished Academia Hack 3 years ago y wanted to keep in a good level of developing so i started to do some products and keep learning the newest Frameworks."
+                                  summary="After completed both bootcamps, Academia Hack and Bogotá Dev Bootcamp I have been an important resource for friends and family members. I have created apps using REACT, like this website! I understand the process of hosting, deployment and fixing errors that happen when working with others. I am excited to help you make your next project. I am confident that I can make you a functional and wicked impressive looking website."
                                   subjects={[{ name: 'Ionic' }, { name: 'PHP-Frameworks' }, { name: 'AngularJS' }, { name: 'HTML&CSS' }, { name: 'JQUERY' }, { name: 'ExpressJS' }, { name: 'Java' }, { name: 'Wordpress' }, { name: 'Ruby' }, { name: 'Ruby on Rails' }]}/>
 
                     </section>
+
+                <h1 className="name">Achievements</h1>
+                <section id="cd-timeline" className="cd-container">
+                    <Timeline url_img="/angel.png" school="AngelHack" degree="2nd place " date ="August 4th & 5th, 2018"
+                              summary="I recently participated in my first Hackathon. It was a crazy weekend. The experience of creating an idea from scratch and working all day and all night with others was really different that working in an office. The hackathon was sponsored by IBM, and we used the technology based on Watson that utilizes image and facial recognition. Our application was call “U.Eat” and we created functionality that identified people sitting at tables at restaurants. This way, crowded restaurants could update their clients on how many tables were available if it’s a busy Friday or Saturday night.  After 26 hours of coding, my team Bogotá Dev and I won second place at the Hackathon! Turns out, my first hackathon proved that I’m a pretty awesome coder."
+                              subjects={[{ name: 'IMB' }, { name: 'Watson' }, { name: 'Visual Recognition' }, { name: 'IOT' }, { name: 'Startup' }, { name: 'AI' }]}/>
+
+                </section>
 
                 </div>
             </div>
